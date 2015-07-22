@@ -1,0 +1,26 @@
+{
+  "name": "phonegap",
+  "version": "0.0.0",
+  "authors": [
+    "Dlani Mendes <dlanileonardo@gmail.com>"
+  ],
+  "homepage": "https://github.com/dlanileonardo/phonegap",
+  "description": "asasas",
+  "main": "wwww/index.html",
+  "moduleType": [
+    "globals"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "www/components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.0.0",
+    "ionic-material": "zachsoft/Ionic-Material#0.4.2"
+  }
+}
