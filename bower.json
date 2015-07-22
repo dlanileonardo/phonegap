@@ -4,6 +4,16 @@
   "authors": [
     "Dlani Mendes <dlanileonardo@gmail.com>"
   ],
+  "keywords": [
+    "Ionic",
+    "Material",
+    "Design",
+    "AngularJS",
+    "Framework",
+    "Hybrid",
+    "Apps",
+    "Mobile"
+  ],
   "homepage": "https://github.com/dlanileonardo/phonegap",
   "description": "asasas",
   "main": "wwww/index.html",
@@ -21,6 +31,8 @@
   ],
   "dependencies": {
     "polymer": "Polymer/polymer#^1.0.0",
-    "ionic-material": "zachsoft/Ionic-Material#0.4.2"
+    "ionic": "driftyco/ionic-bower#v1.0.0",
+    "ionic-material": "zachsoft/Ionic-Material#0.4.2",
+    "ion-md-input": "0.0.2"
   }
 }

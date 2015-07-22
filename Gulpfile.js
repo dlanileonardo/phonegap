@@ -12,35 +12,28 @@ var paths = {
   sass: ['./scss/**/*.scss']
 };
 
-gulp.task('default', ['sass', 'js', 'css', 'fonts']);
+gulp.task('default', ['sass']);
 
-gulp.task('fonts', function () {
-    var src = [
-        './bower_components/ionic/release/fonts/*',
-    ];
-    var fonts = gulp.src(src)
-      .pipe(gulp.dest('./www/fonts/'));
-    return fonts;
-});
+// gulp.task('js', function () {
+//     var src = [
+//         './bower_components/ionic/release/js/*.js',
+//         './bower_components/ionic-material/dist/*.js',
+//         './bower_components/ion-md-input/js/*.js',
+//     ];
+//     var js = gulp.src(src)
+//         .pipe(gulp.dest('./www/js'));
+//     return js;
+// });
 
-gulp.task('js', function () {
-    var src = [
-        './bower_components/ionic/release/js/*.js',
-        './bower_components/ionic-material/dist/*.js',
-    ];
-    var js = gulp.src(src)
-        .pipe(gulp.dest('./www/js'));
-    return js;
-});
-
-gulp.task('css', function () {
-    var src = [
-        './bower_components/ionic-material/dist/*.css',
-    ];
-    var css = gulp.src(src)
-        .pipe(gulp.dest('./www/css'));
-    return css;
-});
+// gulp.task('css', function () {
+//     var src = [
+//         './bower_components/ionic-material/dist/*.css',
+//         './bower_components/ion-md-input/css/*.css',
+//     ];
+//     var css = gulp.src(src)
+//         .pipe(gulp.dest('./www/css'));
+//     return css;
+// });
 
 gulp.task('sass', function(done) {
   gulp.src('./scss/ionic.app.scss')

@@ -10,8 +10,6 @@ systems({
     image: { "docker": "azukiapp/node" },
     provision: [
       "npm install",
-      // "ln -s node_modules/.bin/phonegap && chmod a+x phonegap",
-      // "ln -s node_modules/bower/bin/bower && chmod a+x bower",
     ],
     workdir: "/azk/#{manifest.dir}",
     shell: "/bin/bash",
